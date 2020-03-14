@@ -1,6 +1,6 @@
 {
   "name": "modify-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a webpack plugin that can modify anything",
   "main": "./lib/index.js",
   "scripts": {

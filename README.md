@@ -8,7 +8,7 @@ npm install --save-dev modify-webpack-plugin
 # use yarn
 yarn add modify-webpack-plugin -D
 ```
-### Usage
+## Usage
 ```js
 // webpack.config.js
 const ModifyWebpackPlugin = require("modify-webpack-plugin")
