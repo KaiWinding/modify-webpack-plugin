@@ -6,7 +6,7 @@ a webpack plugin modify any file with new string befor webpack building
 # use npm
 npm install --save-dev modify-webpack-plugin
 # use yarn
-yarn install modify-webpack-plugin -D
+yarn add modify-webpack-plugin -D
 ```
 ### Usage
 ```js
