@@ -17,7 +17,7 @@ module.exports = {
   plugins: [
     new ModifyWebpackPlugin({
       include: [/\.js$/]
-      exclude: ['node_modules]
+      exclude: ['node_modules']
       patterns: [{
         reg: /console\.log\(.*\)/g
         newStr: ''
