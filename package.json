@@ -1,6 +1,6 @@
 {
   "name": "modify-webpack-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a webpack plugin that can modify anything",
   "main": "./lib/index.js",
   "scripts": {
@@ -10,6 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/KaiWinding/modify-webpack-plugin.git"
   },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "modify",
+    "replace"
+  ],
   "author": "Kai",
   "license": "MIT",
   "bugs": {
