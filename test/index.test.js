@@ -5,6 +5,7 @@ const { readFileSync } = require('fs')
 
 const Modify = require('../lib')
 
+const lib = path.join(__dirname, '..', 'lib', 'index.js')
 const src = path.join(__dirname, 'project')
 const dist = path.join(__dirname, 'dist')
 const output = path.join(__dirname, 'dist', 'index.js')
@@ -45,6 +46,13 @@ const testTemple = (pluginOpts, callback) => {
     })
   })
 }
+
+test('does lib/index.js have unless code', () => {
+  const str = readFileSync(lib, 'utf8')
+
+  expect(/console/g.test(str)).toBeFalsy()
+  expect(/debugger/g.test(str)).toBeFalsy()
+})
 
 test('delete all console', (done) => {
   const callback = () => {
